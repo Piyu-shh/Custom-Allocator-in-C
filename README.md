@@ -15,10 +15,12 @@ This project is a simple custom heap memory allocator written in C. It simulates
 - Supports inspection of current heap state (allocated and freed lists)
 
 ## Project Structure
-.
-├── alloc.c # Main source file with allocator implementation 
-├── Makefile # Makefile to compile the project
-└── README.md # Project documentation (this file)
+
+alloc.c # Main source file with allocator implementation 
+
+Makefile # Makefile to compile the project
+
+README.md # Project documentation (this file)
 
 ## TODO
 1. Re-merge the fragmented freed memory chunks without overriding allocated memory
